@@ -75,10 +75,18 @@
 // Console.WriteLine($"Средний балл: {Grade}");
 // Console.WriteLine($"Балл >= 4.0: {isCoolGrade}");
 // Console.WriteLine($"Любимая буква: {favoriteLetter}");
-System.Console.WriteLine("Введите ваш рост");
-double height = Console.ReadLine();
-System.Console.WriteLine("Введите ваш вес");
-double mass = Console.ReadLine();
-double bmi = mass / (height * height);
-System.Console.WriteLine($"ИМТ: {bmi:F2}");
+
+// System.Console.WriteLine("Введите ваш рост");
+// double height = Console.ReadLine();
+// System.Console.WriteLine("Введите ваш вес");
+// double mass = Console.ReadLine();
+// double bmi = mass / (height * height);
+// System.Console.WriteLine($"ИМТ: {bmi:F2}");
+
+System.Console.WriteLine("Введите вашу фамилию");
+string name2 = Console.ReadLine();
+System.Console.WriteLine("Введите ваше имя");
+char name = Console.ReadLine()[0];
+System.Console.WriteLine($"{name2} {name}");
+
 
